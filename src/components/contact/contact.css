@@ -1,18 +1,18 @@
 .c{
-    height: 50vh;
+    height: 100vh;
     position: relative;
 }
 
 .c-bg{
   width: 30px;
-  height: 50vh;
+  height: 100vh;
   background-color: #065E60;
   position: absolute;
 }
 
 .c-bg2{
   width: 20px;
-  height: 50vh;
+  height: 100vh;
   background-color: #0A9396;
   position: absolute;
 }
