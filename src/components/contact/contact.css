@@ -37,8 +37,8 @@
 .c-title{
     display: flex;
     align-items: center;
-    font-size: 60px;
-    width: 50%;
+    font-size: 70px;
+    width: 100%;
 }
 
 .c-info-item{
@@ -59,6 +59,49 @@
     font-weight: 200;
 }
 
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #065E60;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  background-color: #0A9396;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.thanks{
+  font-size: 20px;
+  font-weight: 300;
+  animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {  color: red  }
+    50% { color: green; }
+    100% {  color: blue;  }
+}
+
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
@@ -76,5 +119,22 @@
 
   .c-desc {
     display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
   }
 }
